@@ -22,21 +22,8 @@ pip install yfinance
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* This is the 
-* List pip install instructions.
-
-### Installing
-
-* No installing required other than python and the relevant libraries mentioned above
-
-### Executing program
-
-* Run program and the output files will be PNG files under the folder: "charts"
-* If there is an error, please refer to the above required packages in order for the program to run smoothly.
-
-## Help
-Please confirm that the required modules are installed to use this program, which are contained in required.txt
+* This version was developed using Python 3.12, and will run best in this version.
+* Please confirm that the required modules are installed to use this program, which are contained in required.txt
 and listed here: 
 ```python
 contourpy==1.2.0
@@ -53,6 +40,20 @@ six==1.16.0
 yfinance==0.2.36
 ```
 (most are requirements for matplotlib itself to run, and if you ran the pip install instructions above properly, these should all be present already.)
+
+### Installing
+
+* No installing required other than python and the relevant libraries mentioned above
+
+### Executing program
+
+* Run program and the output files will be PNG files under the folder: "charts"
+* If there is an error, please refer to the above required packages in order for the program to run smoothly.
+
+## Help
+
+Please refer to the dependencies section above and ensure that all python versions, and library versions are as listed.
+
 
 ## Authors
 
