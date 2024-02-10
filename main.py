@@ -1,3 +1,7 @@
+# INF601 - Advanced Programming in Python
+# Sergio Gabriel Jiawei Kun
+# Mini Project 1
+
 import os # for manipulation of png files to go to 'charts' folder
 import numpy as np
 import matplotlib.pyplot as plt
@@ -34,9 +38,13 @@ if not os.path.exists('charts'):
 
 for i, ticker in enumerate(tickers):
     plt.plot(graphArray[i], label=ticker)
+    plt.scatter(range(len(graphArray[i])), graphArray[i], color='red')  # for each individual data point
     plt.xlabel("Date")
     plt.ylabel("Price")
     plt.title(f"Stock Prices in the last 10 days for {ticker}")
     plt.legend()
-    plt.savefig(f"charts/{ticker}_prices.png")
+    png = f"charts/{ticker}_prices.png"
+    if os.path.exists(png):  # removes the old graph of the same ticker
+        os.remove(png)
+    plt.savefig(png)
     plt.close()
