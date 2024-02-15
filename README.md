@@ -70,3 +70,5 @@ Contributors names and contact info
 ## License
 * No licencing
 ## Acknowledgments
+* [Matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html)
+* [automatetheboringstuff](https://automatetheboringstuff.com/2e/chapter9/)
