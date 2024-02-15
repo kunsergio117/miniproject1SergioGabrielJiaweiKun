@@ -49,7 +49,6 @@ The following runs the main.py file.
 ```python
 python main.py
 ```
-* Run program and the output files will be PNG files under the folder: "charts".
 * If there is an error, please refer to the above required packages in order for the program to run smoothly.
 
 ## Help
@@ -66,7 +65,6 @@ Contributors names and contact info
 ## Version History
 * 0.1
     * Initial Release
-    * Program outputs png files that get stored in 'charts' folder.
 * See [commit change]() or See [release history]()
 
 ## License
