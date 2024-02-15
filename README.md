@@ -13,11 +13,10 @@ tickers = ["AAPL", "GOOG", "IBM", "TSLA", "NFLX"]
 ```
 ## Getting Started
 ### pip install instructions
-Ensure that the following packages are installed for the program to function.
+Ensure that the following lines are run for the program to function.
+This pip installs all the required packages listed in requirements.txt.
 ```python
-pip install matplotlib
-pip install numpy
-pip install yfinance
+pip install -r requirements.txt
 ```
 
 ### Dependencies
@@ -46,8 +45,11 @@ yfinance==0.2.36
 * No installing required other than python and the relevant libraries mentioned above
 
 ### Executing program
-
-* Run program and the output files will be PNG files under the folder: "charts"
+The following runs the main.py file.
+```python
+python main.py
+```
+* Run program and the output files will be PNG files under the folder: "charts".
 * If there is an error, please refer to the above required packages in order for the program to run smoothly.
 
 ## Help
